@@ -1,0 +1,10 @@
+/home/tom/git/staticOcius/staticOcius/bin/Debug/netcoreapp2.0/staticOcius.deps.json
+/home/tom/git/staticOcius/staticOcius/bin/Debug/netcoreapp2.0/staticOcius.runtimeconfig.json
+/home/tom/git/staticOcius/staticOcius/bin/Debug/netcoreapp2.0/staticOcius.runtimeconfig.dev.json
+/home/tom/git/staticOcius/staticOcius/bin/Debug/netcoreapp2.0/staticOcius.dll
+/home/tom/git/staticOcius/staticOcius/bin/Debug/netcoreapp2.0/staticOcius.pdb
+/home/tom/git/staticOcius/staticOcius/obj/Debug/netcoreapp2.0/staticOcius.csproj.CoreCompileInputs.cache
+/home/tom/git/staticOcius/staticOcius/obj/Debug/netcoreapp2.0/staticOcius.AssemblyInfoInputs.cache
+/home/tom/git/staticOcius/staticOcius/obj/Debug/netcoreapp2.0/staticOcius.AssemblyInfo.cs
+/home/tom/git/staticOcius/staticOcius/obj/Debug/netcoreapp2.0/staticOcius.dll
+/home/tom/git/staticOcius/staticOcius/obj/Debug/netcoreapp2.0/staticOcius.pdb

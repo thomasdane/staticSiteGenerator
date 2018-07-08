@@ -1,0 +1,13 @@
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOciusTests.deps.json
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOciusTests.runtimeconfig.json
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOciusTests.runtimeconfig.dev.json
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOciusTests.dll
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOciusTests.pdb
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.csproj.CoreCompileInputs.cache
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.AssemblyInfoInputs.cache
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.AssemblyInfo.cs
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.dll
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.pdb
