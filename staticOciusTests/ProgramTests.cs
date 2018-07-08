@@ -16,11 +16,8 @@ namespace staticOciusTests
         public async Task GetHtml_WhenValidUrl_ReturnsHtml()
         {
             //Arrange
-            var fakeResponseHandler = new FakeHttpMessageHandler();
-            fakeResponseHandler.AddFakeResponse(new Uri("http://example.org/test"), new HttpResponseMessage(HttpStatusCode.OK));
-
-            var httpClient = new HttpClient(fakeResponseHandler);
-
+            var fakeHttpMessageHandler = new FakeHttpMessageHandler();
+            var httpClient = new HttpClient(fakeHttpMessageHandler);
             var program = new Program(httpClient);
             var url = "https://example.com";
             var expected = "<p>hello world</p>";
@@ -35,26 +32,13 @@ namespace staticOciusTests
 
     public class FakeHttpMessageHandler : HttpMessageHandler
     {
-        private readonly Dictionary<Uri, HttpResponseMessage> _FakeResponses = new Dictionary<Uri, HttpResponseMessage>(); 
-
-        public void AddFakeResponse(Uri uri, HttpResponseMessage responseMessage)
-        {
-                _FakeResponses.Add(uri,responseMessage);
-        }
-
         protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
         {
-            if (_FakeResponses.ContainsKey(request.RequestUri))
-            {
-                return _FakeResponses[request.RequestUri];
-            }
-            else
-            {
-                var foo = new HttpResponseMessage(HttpStatusCode.NotFound) { RequestMessage = request};
-                var content = new StringContent("<p>hello world</p>");
-                foo.Content = content;
-                return foo;
-            }
+            return new HttpResponseMessage(HttpStatusCode.NotFound) 
+            { 
+                RequestMessage = request,
+                Content = new StringContent("<p>hello world</p>")
+            };
         }
     }
 }
