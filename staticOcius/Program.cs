@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace staticOcius
 {
@@ -15,6 +16,7 @@ namespace staticOcius
 
         static void Main(string[] args)
         {
+            var serviceCollection = new ServiceCollection().AddSingleton<HttpClient>();          
             Console.WriteLine("Hello World!");
         }
 
