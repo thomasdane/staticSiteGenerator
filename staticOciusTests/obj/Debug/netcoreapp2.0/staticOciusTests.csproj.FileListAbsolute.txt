@@ -11,3 +11,7 @@
 /home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.AssemblyInfo.cs
 /home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.dll
 /home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.pdb
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.csprojResolveAssemblyReference.cache
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOcius.dll
+/home/tom/git/staticOcius/staticOciusTests/bin/Debug/netcoreapp2.0/staticOcius.pdb
+/home/tom/git/staticOcius/staticOciusTests/obj/Debug/netcoreapp2.0/staticOciusTests.csproj.CopyComplete
